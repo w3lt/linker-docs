@@ -17,7 +17,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Linker', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'Linker', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -57,6 +57,11 @@ const config: Config = {
         src: 'img/logo.jpg',
       },
       items: [
+        {
+          position: 'left',
+          label: 'Docs',
+          href: '/',
+        },
         {
           href: 'https://github.com',
           label: 'GitHub',
